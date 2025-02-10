@@ -1,0 +1,104 @@
+// Font import
+// @font-face {
+//   font-family: "Gellix Theorem";
+//   src: url('../fonts/GellixTheorem-Medium.woff2') format('woff2'), url("../fonts/GellixTheorem-Medium.otf");
+//   font-weight: 500;
+//   font-style: normal;
+//   font-display: swap;
+// }
+// @font-face {
+//   font-family: "Druk Cond Trial";
+//   src: url('../fonts/DrukCond-Super-Trial.otf');
+//   font-weight: 500;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+
+@font-face {
+  font-family: "Gellix Theorem";
+  src: url('../fonts/GellixTheorem-Medium.woff2') format('woff2'), 
+       url('../fonts/GellixTheorem-Medium.ttf') format('truetype'),
+       url('../fonts/GellixTheorem-Medium.otf') format('opentype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Druk Cond Trial";
+  src: url('../fonts/DrukCond-Super-Trial.ttf') format('truetype'),
+       url('../fonts/DrukCond-Super-Trial.otf') format('opentype');
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Gellix Theorem", Arial, sans-serif;
+  font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gellix Theorem";
+}
+button,
+a,
+p {
+  font-weight: 250;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  white-space: normal;
+  margin: 0;
+}
+
+h1 {
+  font-size: 112px;
+  line-height: 126px;
+  &.big {
+    font-weight: 500;
+    font-size: 189px;
+    line-height: 146px;
+  }
+  @media screen and (max-width: 1285px) {
+    font-size: 100px;
+  }
+  @media screen and (max-width: 1030px) {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 54px;
+    line-height: 55px;
+  }
+  @media screen and (max-width: 370px) {
+    font-size: 47px;
+    line-height: 50px;
+  }
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 69px;
+  @media screen and (max-width: 1025px) {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  @media screen and (max-width: 575px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
