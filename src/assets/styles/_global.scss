@@ -51,7 +51,7 @@ ul {
   overflow: hidden;
   cursor: pointer;
   &:hover {
-    // background: #c09ac5;
+    // background: #FFC107;
     // color: #000000;
   }
   &::before {
@@ -74,7 +74,7 @@ ul {
     display: flex;
     align-items: center;
     height: 100%;
-    background: #c09ac5;
+    background: #FFC107;
     color: #000000;
     content: attr(data-title);
     justify-content: center;
@@ -86,7 +86,7 @@ ul {
     transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
   }
   &:hover {
-    border-color: #c09ac5;
+    border-color: #FFC107;
     &::before {
       transform: translateY(100%);
     }
@@ -130,7 +130,7 @@ ul {
     display: flex;
     align-items: center;
     height: 100%;
-    background: #c09ac5;
+    background: #FFC107;
     color: #000000;
     content: attr(data-title);
     justify-content: center;
@@ -142,7 +142,7 @@ ul {
     transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
   }
   &:hover {
-    border-color: #c09ac5;
+    border-color: #FFC107;
     &::before {
       transform: translateY(100%);
     }

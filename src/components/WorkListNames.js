@@ -2,19 +2,14 @@ import React, { useEffect, useState } from 'react'
 import { SwitchTransition, CSSTransition } from 'react-transition-group'
 import ratio from '../helpers/ratio'
 import { tabletP } from '../utils/bp'
-import googlelogo from '../assets/images/google-logo.svg'
-import f1logo from '../assets/images/f1-logo.svg'
-import ikialogo from '../assets/images/ikea-logo.svg'
-import universallogo from '../assets/images/universal-logo.svg'
-import toyotacarlogo from '../assets/images/toyota-car-logo.svg'
-import zalandologo from '../assets/images/zalando-logo.svg'
-import infinitelogo from '../assets/images/infinite-logo.svg'
-import gialogo from '../assets/images/gea.svg'
-import asoslogo from '../assets/images/asos-logo.svg'
-import braclayslogo from '../assets/images/barclays-logo.svg'
-import wefox from '../assets/images/wefox-logo.svg'
-import mineirors from '../assets/images/MINEIROS-LOGO.svg'
-import kenjologo from '../assets/images/KENJO.svg'
+import brand01 from '../assets/images/brands/brand-01.png'
+import brand02 from '../assets/images/brands/brand-02.svg'
+import brand03 from '../assets/images/brands/brand-03.svg'
+import brand04 from '../assets/images/brands/brand-04.png'
+import brand05 from '../assets/images/brands/brand-05.png'
+import brand06 from '../assets/images/brands/brand-06.png'
+import brand07 from '../assets/images/brands/brand-07.png'
+import brand08 from '../assets/images/brands/brand-08.png'
 import Marquee from "react-fast-marquee";
 
 import gsap from "gsap";
@@ -53,35 +48,32 @@ const WorkListNames = ({ works = [], currentWorkIndex = 0, onNameClick, mode = n
                             <Marquee speed={30}>
                                 <div className="portfolio__clients--logoWrapper">
                                     <div className="portfolio__clients--logo">
-                                        <img src={googlelogo} alt="" />
+                                        <img src={brand01} alt="" />
                                     </div>
                                     <div className="portfolio__clients--logo">
-                                        <img src={f1logo} alt="" />
+                                        <img src={brand02} alt="" />
                                     </div>
                                     <div className="portfolio__clients--logo">
-                                        <img src={ikialogo} alt="" />
+                                        <img src={brand03} alt="" />
                                     </div>
                                     <div className="portfolio__clients--logo">
-                                        <img src={universallogo} alt="" />
+                                        <img src={brand04} alt="" />
                                     </div>
                                     <div className="portfolio__clients--logo">
-                                        <img src={toyotacarlogo} alt="" />
+                                        <img src={brand05} alt="" />
                                     </div>
                                     <div className="portfolio__clients--logo">
-                                        <img src={zalandologo} alt="" />
+                                        <img src={brand06} alt="" />
                                     </div>
                                     <div className="portfolio__clients--logo">
-                                        <img src={infinitelogo} alt="" />
+                                        <img src={brand07} alt="" />
                                     </div>
                                     <div className="portfolio__clients--logo">
-                                        <img src={gialogo} alt="" />
-                                    </div>
-                                    <div className="portfolio__clients--logo">
-                                        <img src={asoslogo} alt="" />
+                                        <img src={brand08} alt="" />
                                     </div>
                                     {/* <div className="portfolio__clients--logo">
-                                        <img src={braclayslogo} alt="" />
-                                    </div> */}
+                                        <img src={asoslogo} alt="" />
+                                    </div>
                                     <div className="portfolio__clients--logo">
                                         <img src={kenjologo} alt="" />
                                     </div>
@@ -90,7 +82,7 @@ const WorkListNames = ({ works = [], currentWorkIndex = 0, onNameClick, mode = n
                                     </div>
                                     <div className="portfolio__clients--logo">
                                         <img src={mineirors} alt="" />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </Marquee>
                         </div>

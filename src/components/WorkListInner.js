@@ -16,37 +16,36 @@ const WorkListImagesInner = ({
     works = [
         {
             id: 1,
-            name: 'LIQID',
-            src: '/liqid.png',
-            srcmobile: '/liqid-mobile.png',
-            path: '/liqid'
+            name: 'PUBLIC',
+            src: '/public.png',
+            srcmobile: '/public-mobile.png',
         },
         {
             id: 2,
-            name: 'Terramate',
-            src: '/terramate.png',
-            srcmobile: '/terramate-mobile.png',
+            name: 'NBS',
+            src: '/nbs.png',
+            srcmobile: '/nbs-mobile.png',
             path: '/terramate'
         },
         {
             id: 3,
-            name: 'Wefox',
-            src: '/wefox.png',
-            srcmobile: '/wefox-mobile.png',
+            name: 'Haru Marriage',
+            src: '/harumarriage.png',
+            srcmobile: '/harumarriage-mobile.png',
             path: '/wefox'
         },
         {
             id: 4,
-            name: 'Theorem',
-            src: '/THEOREM.png',
-            srcmobile: '/theorem-mobile.png',
+            name: 'BCP',
+            src: '/bcp.png',
+            srcmobile: '/bcp-mobile.png',
             path: '/theorem'
         },
         {
             id: 5,
-            name: 'Embargo',
-            src: '/embargo.png',
-            srcmobile: '/embargo-mobile.png',
+            name: 'Neo Workout',
+            src: '/neoworkout.png',
+            srcmobile: '/neoworkout-mobile.png',
             path: '/embargo'
         },
         // {
@@ -58,39 +57,39 @@ const WorkListImagesInner = ({
         // },
         {
             id: 6,
-            name: 'Gea',
-            src: '/gea-thumb.png',
-            srcmobile: '/gea-mobile.png',
+            name: 'SSM',
+            src: '/ssm.png',
+            srcmobile: '/ssm-mobile.png',
             path: '/gea'
         },
         {
             id: 7,
-            name: 'Toyota',
-            src: '/toyota-thumb.png',
-            srcmobile: '/toyota-mobile.png',
+            name: 'Cyber Agent',
+            src: '/cyberagent.png',
+            srcmobile: '/cyberagent-mobile.png',
             path: '/toyota'
         },
         {
             id: 8,
-            name: 'Kenjo',
-            src: '/kenjo-thumb.png',
-            srcmobile: '/kenjo-mobile.png',
+            name: 'Grates',
+            src: '/grates.png',
+            srcmobile: '/grates-mobile.png',
             path: '/kenjo'
         },
-        {
-            id: 9,
-            name: 'Misterspex',
-            src: '/misterspex-thumb.png',
-            srcmobile: '/misterspex-mobile.png',
-            path: '/misterspex'
-        },
-        {
-            id: 10,
-            name: 'Neom',
-            src: '/neom-thumb.png',
-            srcmobile: '/neom-banner2.png',
-            path: '/neom'
-        },
+        // {
+        //     id: 9,
+        //     name: 'Misterspex',
+        //     src: '/misterspex-thumb.png',
+        //     srcmobile: '/misterspex-mobile.png',
+        //     path: '/misterspex'
+        // },
+        // {
+        //     id: 10,
+        //     name: 'Neom',
+        //     src: '/neom-thumb.png',
+        //     srcmobile: '/neom-banner2.png',
+        //     path: '/neom'
+        // },
         // {
         //     id: 8,
         //     name: 'Brickblock',
@@ -247,12 +246,12 @@ const WorkListImagesInner = ({
                             >
                                 <div className="WorkListImages__ListItemHoverScale">
                                     {/* <Link to={`/case/${work.case.document.uid}`}> */}
-                                    <Link to={work.path}>
+                                    {/* <Link to={work.path}>
+                                    </Link> */}
                                         <img
                                             className="WorkListImages__ItemImage"
                                             src={work.src}
                                         />
-                                    </Link>
 
                                     {/* </Link> */}
                                 </div>

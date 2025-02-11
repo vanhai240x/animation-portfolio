@@ -36,14 +36,14 @@ const Service = () => {
                 <Parallax translateX={[0, -20]} className='mdone'>
                     <div className="service__vision--slide textSlide">
                         <h1 data-scroll data-scroll-speed="5" data-scroll-direction="horizontal">
-                            Awardssssssssssss
+                            Experienceeeee
                         </h1>
                     </div>
                 </Parallax>
                 <Parallax translateX={[0, -100]} className='mdblock'>
                     <div className="service__vision--slide textSlide">
                         <h1 data-scroll data-scroll-speed="5" data-scroll-direction="horizontal">
-                            Awardssssssssssss
+                            Experienceeeee
                         </h1>
                     </div>
                 </Parallax>
@@ -51,12 +51,11 @@ const Service = () => {
             <Parallax speed={20}>
                 <div className="service__textbox">
                     <p>
-                        Awwwards Site Of The Day 
-                        <br/>Awwwards Honourable Mention 
-                        <br/>Cannes Lions Mobile Silver 
-                        <br/>FWA Site & Mobile Site Of 
-                        <br/>The Day Royal Society Of Arts SDA
-                        <br/>The Lovies Entertainment Award
+                        <i>Senior Front End Developer</i>, <b>FPT Software</b>, 5/2024 - Present
+                        <br/><i>Senior Front End Developer</i>, <b>Upwork's Freelancer</b>, 1/2024 - 4/2024
+                        <br/><i>Senior Front End Developer</i>, <b>EcoTruck</b>, 02/2023 - 12/2023
+                        <br/><i>Front End Developer</i>, <b>Danh Khoi</b>, 04/2022 - 01/2023
+                        <br/><i>Front End Developer</i>, <b>Rionlab</b>, 03/2019 - 03/2022
                     </p>
                 </div>
             </Parallax>

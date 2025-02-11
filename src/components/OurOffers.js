@@ -98,7 +98,7 @@ const OurOffers = () => {
         <div className="ouroffers" ref={main}>
             <div className="offergradient"></div>
             <div className="offergradient2"></div>
-            <OffersBlocks />
+            {/* <OffersBlocks /> */}
         </div>
     )
 }

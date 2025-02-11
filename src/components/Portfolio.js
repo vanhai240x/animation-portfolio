@@ -3,22 +3,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 import 'swiper/css';
 import WorkListImages from './WorkListImages'
-import googlelogo from '../assets/images/google-logo.svg'
-import f1logo from '../assets/images/f1-logo.svg'
-import ikialogo from '../assets/images/ikea-logo.svg'
-import universallogo from '../assets/images/universal-logo.svg'
-import toyotacarlogo from '../assets/images/toyota-car-logo.svg'
-import zalandologo from '../assets/images/zalando-logo.svg'
-import infinitelogo from '../assets/images/infinite-logo.svg'
-import gialogo from '../assets/images/gea.svg'
-import asoslogo from '../assets/images/asos-logo.svg'
-import braclayslogo from '../assets/images/barclays-logo.svg'
-import kenjologo from '../assets/images/KENJO.svg'
+import brand01 from '../assets/images/brands/brand-01.png'
+import brand02 from '../assets/images/brands/brand-02.svg'
+import brand03 from '../assets/images/brands/brand-03.svg'
+import brand04 from '../assets/images/brands/brand-04.png'
+import brand05 from '../assets/images/brands/brand-05.png'
+import brand06 from '../assets/images/brands/brand-06.png'
+import brand07 from '../assets/images/brands/brand-07.png'
+import brand08 from '../assets/images/brands/brand-08.png'
 import WorkListNames from './WorkListNames'
 import smoothScrollTo from '../helpers/smoothScrollTo'
 import Marquee from "react-fast-marquee";
-import wefox from '../assets/images/wefox-logo.svg'
-import mineirors from '../assets/images/MINEIROS-LOGO.svg'
 import { Link } from 'react-router-dom';
 
 import { gsap } from "gsap";
@@ -31,21 +26,21 @@ const Portfolio = ({
     works = [
         {
             id: 0,
-            name: 'LIQID',
-            src: '/liqid.png',
-            srcmobile: '/liqid-mobile.png'
+            name: 'PUBLIC',
+            src: '/public.png',
+            srcmobile: '/public-mobile.png'
         },
         {
             id: 1,
-            name: 'Terramate',
-            src: '/terramate.png',
-            srcmobile: '/terramate-mobile.png'
+            name: 'NBS',
+            src: '/nbs.png',
+            srcmobile: '/nbs-mobile.png'
         },
         {
             id: 2,
-            name: 'Wefox',
-            src: '/wefox.png',
-            srcmobile: '/wefox-mobile.png'
+            name: 'Haru Marriage',
+            src: '/harumarriage.png',
+            srcmobile: '/harumarriage-mobile.png'
         },
     ],
 }) => {
@@ -182,48 +177,45 @@ const Portfolio = ({
                 
                 <div className="portfolio__clients">
                     <div className="portfolio__clients--slideAnim">
-                        <Marquee speed={50}>
-                            <div className="portfolio__clients--logoWrapper">
-                                <div className="portfolio__clients--logo">
-                                    <img src={googlelogo} alt="" />
+                        <Marquee speed={30}>
+                                <div className="portfolio__clients--logoWrapper">
+                                    <div className="portfolio__clients--logo">
+                                        <img src={brand01} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={brand02} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={brand03} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={brand04} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={brand05} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={brand06} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={brand07} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={brand08} alt="" />
+                                    </div>
+                                    {/* <div className="portfolio__clients--logo">
+                                        <img src={asoslogo} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={kenjologo} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={wefox} alt="" />
+                                    </div>
+                                    <div className="portfolio__clients--logo">
+                                        <img src={mineirors} alt="" />
+                                    </div> */}
                                 </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={f1logo} alt="" />
-                                </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={ikialogo} alt="" />
-                                </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={universallogo} alt="" />
-                                </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={toyotacarlogo} alt="" />
-                                </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={zalandologo} alt="" />
-                                </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={infinitelogo} alt="" />
-                                </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={gialogo} alt="" />
-                                </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={asoslogo} alt="" />
-                                </div>
-                                {/* <div className="portfolio__clients--logo">
-                                    <img src={braclayslogo} alt="" />
-                                </div> */}
-                                <div className="portfolio__clients--logo">
-                                    <img src={kenjologo} alt="" />
-                                </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={wefox} alt="" />
-                                </div>
-                                <div className="portfolio__clients--logo">
-                                    <img src={mineirors} alt="" />
-                                </div>
-                            </div>
                         </Marquee>
                     </div>
                     <Link to='/portfolio' className='portfolio__clients--cta btntrans' data-title="View all work">

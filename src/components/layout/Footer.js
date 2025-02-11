@@ -62,7 +62,7 @@ const Footer = () => {
                                 <Link className='btntrans bblack' data-title='Say hello'
                                     to='#'
                                     onClick={(e) => {
-                                        window.location.href = 'mailto:rebecca@reailise.com ';
+                                        window.location.href = 'mailto:tranvanhai240x@gmail.com';
                                         e.preventDefault();
                                     }}
                                 >
@@ -72,14 +72,14 @@ const Footer = () => {
                         </div>
                         <div className="footer__contactinfo--right">
                             <p>
-                                From England <br/>
-                                Living in Berlin <br/>
+                                From Gia Lai <br/>
+                                Living in Da Nang <br/>
                                 Available to moooooove for work
                             </p>
                             <Link className='btntrans bblack' data-title='Say hello'
                                 to='#'
                                 onClick={(e) => {
-                                    window.location.href = 'mailto:rebecca@reailise.com ';
+                                    window.location.href = 'mailto:tranvanhai240x@gmail.com';
                                     e.preventDefault();
                                 }}
                             >

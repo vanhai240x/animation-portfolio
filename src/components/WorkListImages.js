@@ -30,18 +30,18 @@ const WorkListImages = ({
     works = [
         {
             id: 0,
-            src: '/liqid.png',
-            path:'/liqid'
+            src: '/public.png',
+            path:'/public'
         },
         {
             id: 1,
-            src: '/terramate.png',
-            path:'/terramate'
+            src: '/nbs.png',
+            path:'/nbs'
         },
         {
             id: 2,
-            src: '/wefox.png',
-            path:'/wefox'
+            src: '/harumarriage.png',
+            path:'/harumarriage'
         },
     ],
     onNewCurrentWorkIndex,
@@ -192,12 +192,12 @@ const WorkListImages = ({
                             >
                                 <div className="WorkListImages__ListItemHoverScale">
                                     {/* <Link to={`/case/${work.case.document.uid}`}> */}
-                                    <Link to={work.path}>
+                                    {/* <Link to={work.path}>
+                                    </Link> */}
                                         <img
                                             className="WorkListImages__ItemImage"
                                             src={work.src}
                                         />
-                                    </Link>
 
                                     {/* </Link> */}
                                 </div>

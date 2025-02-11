@@ -39,27 +39,39 @@ const Ethos = () => {
                 </h4>
                 <div className='ethos__content--title' id='target' ref={splttext}>
                     <div className="line">
-                        I consistently question the
+                        I have been fortunate to work 
                         <div className="mask" ref={mask}></div>
                     </div>
                     <div className="line">
-                        established norms and craft
+                        for many companies, including 
                         <div className="mask" ref={mask}></div>
                     </div>
                     <div className="line">
-                        groundbreaking solutions that
+                        leading domestic technology 
                         <div className="mask" ref={mask}></div>
                     </div>
                     <div className="line">
-                        redefine industry standards, all
+                        corporations, where I have 
                         <div className="mask" ref={mask}></div>
                     </div>
                     <div className="line">
-                        achieved through close
+                        learned from and worked with
                         <div className="mask" ref={mask}></div>
                     </div>
                     <div className="line">
-                        collaboration with my clients.
+                        talented and experienced engineers. 
+                        <div className="mask" ref={mask}></div>
+                    </div>
+                    <div className="line">
+                        I have had exposure to exciting 
+                        <div className="mask" ref={mask}></div>
+                    </div>
+                    <div className="line">
+                        fields such as blockchain, real 
+                        <div className="mask" ref={mask}></div>
+                    </div>
+                    <div className="line">
+                        estate, logistics, call centers, etc.
                         <div className="mask" ref={mask}></div>
                     </div>
                 </div>

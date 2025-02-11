@@ -105,7 +105,8 @@ const Header = () => {
             <div className="container d__flex jc__between ai__center">
                 <div className="header__logo">
                     <Link to='/'>
-                        <img src={logo} alt="" ref={headerlogo} />
+                        {/* <img src={logo} alt="" ref={headerlogo} /> */}
+                        <h2>TRAN VAN HAI</h2>
                     </Link>
                 </div>
                 <nav className={"header__nav " + (mobilemode ? "show" : "")}>
@@ -114,7 +115,7 @@ const Header = () => {
                             <Link className="link" data-title="Let’s talk" ref={headerbtn}
                                 to='#'
                                 onClick={(e) => {
-                                    window.location.href = 'mailto:rebecca@reailise.com ';
+                                    window.location.href = 'mailto:tranvanhai240x@gmail.com';
                                     e.preventDefault();
                                 }}
                             >
@@ -127,7 +128,7 @@ const Header = () => {
                             </Link>
                         </li>
                         {/* <li className="header__nav--menu--item">
-                            <a href="mailto:rebecca@reailise.com " href="" className="">
+                            <a href="mailto:tranvanhai240x@gmail.com" href="" className="">
 
                             </a>
                         </li> */}

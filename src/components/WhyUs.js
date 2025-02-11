@@ -189,7 +189,7 @@ const WhyUs = () => {
           why I’m the one
         </h4>
         <h2 className='split-text'>
-          Why I’m not the <br /> average Creative <br /> Director? My <br/> multidisciplinary <br/> background
+          Why I’m not the <br />average Front <br />End Developer? <br/>My multidisciplinary <br/> background
         </h2>
       </div>
       <div className="whyus__row" ref={whyusrow}>
@@ -201,7 +201,7 @@ const WhyUs = () => {
             <div className="whyus__col--left">
               <div className="whyus__col--left--heading">
                 <h3>
-                  Multidisciplinary Queen
+                Lots of experience
                 </h3>
               </div>
               <div className="whyus__col--left--number">
@@ -212,10 +212,10 @@ const WhyUs = () => {
             </div>
             <div className="whyus__col--text">
               <p>
-                As a genuine craft designer, my expertise stems from a pixel-perfect foundation in digital design. I have a broad range of experience, spanning creative pitches, intricate product design, and comprehensive 360-degree development in branding, web, and product. 
+              With over 6 years of experience in software development, working for a variety of companies from outsourcing to product companies, being exposed to many different fields, meeting and working with top engineers in the industry.
               </p>
               <p>
-                I’m great at brand strategy, and able to create a brand from scratch that truly aligns with the values of a company.
+              Proficient in developing user interfaces with the Angular framework, working extensively with UI libraries and tools around this ecosystem.
               </p>
             </div>
 
@@ -229,7 +229,7 @@ const WhyUs = () => {
             <div className="whyus__col--left">
               <div className="whyus__col--left--heading">
                 <h3>
-                  I’m your partner, not just a “freelancer”
+                Professional teamwork ability
                 </h3>
               </div>
               <div className="whyus__col--left--number">
@@ -240,8 +240,9 @@ const WhyUs = () => {
             </div>
             <div className="whyus__col--text">
               <p>
-                I work with clients and products that I truly resonate with. I see myself as partner, not just vendor, which means I get to know you, your business and your vision. This tailored approach allows me to create solutions aligned with your needs, fostering collaboration for our shared success.
+              Friendly and sociable at work, always listening and accompanying team members to solve problems. Proactively contact and actively discuss towards the common goal of developing the product in the most complete way.
               </p>
+              <p>Support training and mentoring for new employees/interns. Have led small and medium-sized teams in the Agile/Scrum model.</p>
             </div>
 
           </div>
@@ -254,7 +255,7 @@ const WhyUs = () => {
             <div className="whyus__col--left">
               <div className="whyus__col--left--heading">
                 <h3>
-                Notable Awards
+                Teck stacks
                 </h3>
               </div>
               <div className="whyus__col--left--number">
@@ -265,10 +266,12 @@ const WhyUs = () => {
             </div>
             <div className="whyus__col--text">
               <p>
-                I won the prestigious Royal Society of Arts SDA award, past alumni James Dyson, Sir Jony Ive, Chief Design Officer of Apple; Betty Jackson, CBE, award-winning fashion designer. Clarke, Former Head of Innovation at Nike; and Bill Moggridge, Co-founder of IDEO and designer of the first laptop.
-              </p>
-              <p>
-                I’m only interested in setting the bar at the top, creating magical digital experiences that leave a “wow” impression that both convert and stand out.
+                <b>Programing Language</b>: Javascript. <br/>
+                <b>Technology, Framework & Library</b>: Angular 2+, ReactJS, jQuery, Lodash, Angular Material, Ngx Bootstrap, Tailwindcss. <br/>
+                <b>Operation Systems</b>: Windows clients, Mac OS, Linux. <br/>
+                <b>Database System</b>: MySQL. <br/>
+                <b>Development Tool</b>: VSCode, Jira, Git. <br/>
+                <b>Development Method</b>: Agile Scrum, Kanban. <br/>
               </p>
             </div>
 

@@ -13,6 +13,7 @@ const Hero = () => {
     const introsplttext = useRef(null)
     const introsplttext2 = useRef(null)
     const introsplttext3 = useRef(null)
+    const introsplttext4 = useRef(null)
     const spanword = useRef()
     const grad1 = useRef()
 
@@ -22,6 +23,7 @@ const Hero = () => {
         const text = new Splitting({ target: introsplttext.current, by: 'chars' });
         const text2 = new Splitting({ target: introsplttext2.current, by: 'chars' });
         const text3 = new Splitting({ target: introsplttext3.current, by: 'chars' });
+        const text4 = new Splitting({ target: introsplttext4.current, by: 'chars' });
 
         var spanWord = spanword.current;
         spanWord.innerHTML = spanWord.innerHTML.replace(/(^|<\/?[^>]+>|\s+)([^\s<]+)/g, '$1<span class="span-line"><span class="span-line-inner">$2</span><span class="span-mask"></span></span>');
@@ -38,11 +40,13 @@ const Hero = () => {
         introtl.to(".intro__block--item1 .char", { delay: .7, duration: .55, stagger: 0.022, y: 0, ease: Power3.easeInOut });
         introtl.to(".intro__block--item2 .char", { duration: .55, stagger: 0.022, y: 0, ease: Power3.easeInOut }, '>-.5');
         introtl.to(".intro__block--item3 .char", { duration: .55, stagger: 0.022, y: 0, ease: Power3.easeInOut }, '>-.5');
-        introtl.to(".intro__block--item4", { duration: .55, y: 0, ease: Power3.easeInOut }, '>-.5');
+        introtl.to(".intro__block--item4 .char", { duration: .55, stagger: 0.022, y: 0, ease: Power3.easeInOut }, '>-.5');
+        // introtl.to(".intro__block--item4", { duration: .55, y: 0, ease: Power3.easeInOut }, '>-.5');
         introtl.to(".intro__block--item1 .char", { delay: .3, stagger: 0.022, duration: .55, y: '-110%', ease: Power3.easeInOut });
         introtl.to(".intro__block--item2 .char", { duration: .55, stagger: 0.022, y: '-110%', ease: Power3.easeInOut }, '>-.5');
         introtl.to(".intro__block--item3 .char", { duration: .55, stagger: 0.022, y: '-110%', ease: Power3.easeInOut }, '>-.5');
-        introtl.to(".intro__block--item4", { duration: .55, y: '-100%', ease: Power3.easeInOut }, '>-.5');
+        introtl.to(".intro__block--item4 .char", { duration: .55, stagger: 0.022, y: '-110%', ease: Power3.easeInOut }, '>-.5');
+        // introtl.to(".intro__block--item4", { duration: .55, y: '-100%', ease: Power3.easeInOut }, '>-.5');
         introtl.to(".intro", { duration: .8, y: '-100%', ease: Power3.easeOut });
         introtl.from(".span-line-inner", { duration: .8, stagger: .05, y: '105%', ease: Power3.easeInOut }, '>-.65');
         introtl.from(".heroBanner__textbox", { duration: .6, opacity: 0, y: 70, ease: Power3.easeInOut }, '>-.8');
@@ -90,21 +94,24 @@ const Hero = () => {
             <div className="intro">
                 <div className="intro__block">
                     <h2 className='intro__block--item1' ref={introsplttext}>
-                        Crafty
+                        Senior
                     </h2>
                 </div>
                 <div className="intro__block" ref={introsplttext2}>
                     <h2 className='intro__block--item2'>
-                        Conceptual
+                        Front End
                     </h2>
                 </div>
                 <div className="intro__block" ref={introsplttext3}>
                     <h2 className='intro__block--item3'>
-                        Catalystic
+                        Developer
                     </h2>
                 </div>
-                <div className="intro__block">
-                    <img className='intro__block--item4' src={logo} alt="" />
+                <div className="intro__block" ref={introsplttext4}>
+                    {/* <img className='intro__block--item4' src={logo} alt="" /> */}
+                    <h2 className='intro__block--item4'>
+                        Tran Van Hai
+                    </h2>
                 </div>
             </div>
 
@@ -118,7 +125,7 @@ const Hero = () => {
                     <div className="container">
                         <div className="heroBanner__heading">
                             <h1 className='span-lines' ref={spanword}>
-                                Hands on Creative<br/>Direction, I aim to<br/>win awards with <br/>everything I do.
+                                As a Front End <br className='PC'/>Developer, I aim to <br className='PC'/>deliver the best web <br className='PC'/>browsing experience <br className='PC'/>on my products.
                             </h1>
                         </div>
                         <div className="heroBanner__right">
@@ -133,7 +140,7 @@ const Hero = () => {
             <Parallax speed={5} className='heroBanner__parallaxbox'>
                 <div className="heroBanner__textbox">
                     <p>
-                        A hands-on leader, I dive into design when needed, inspiring and cultivating a happy team. Together, we create brands, websites, and products that not only defy norms but redefine excellence in aesthetics, functionality, and unparalleled value.
+                        More than just a coder, I jump into design when needed, inspiring and nurturing a happy team. Together, we create apps, websites and products that not only challenge the norm but also redefine excellence in aesthetics, functionality and unmatched value.
                     </p>
                 </div>
             </Parallax>
@@ -154,9 +161,10 @@ const Hero = () => {
             </Parallax>
             <Parallax speed={5}>
                 <div className="container heroBanner__footer">
-                    <p>BRAND</p>
-                    <p>WEB</p>
-                    <p>PRODUCT</p>
+                    <p>SENIOR</p>
+                    <p className='PC'>FRONT END / ANGULAR</p>
+                    <p className='SP'>FRONT END</p>
+                    <p>DEVELOPER</p>
                 </div>
             </Parallax>
         </div>

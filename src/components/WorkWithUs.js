@@ -37,19 +37,19 @@ const WorkWithUs = () => {
                             <div className="mask" ref={mask}></div>
                         </div>
                         <div className="line">
-                            complexity. I’m a problem-solver at
+                            complexity. I’m a problem-solver
                             <div className="mask" ref={mask}></div>
                         </div>
                         <div className="line">
-                            our core. My aim is to win awards
+                            at our core. My aim is to learn
                             <div className="mask" ref={mask}></div>
                         </div>
                         <div className="line">
-                            and create industry-defining
+                            and build great products
                             <div className="mask" ref={mask}></div>
                         </div>
                         <div className="line">
-                            solutions across mobile and web.
+                            across mobile and web.
                             <div className="mask" ref={mask}></div>
                         </div>
                     </div>

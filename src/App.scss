@@ -10,7 +10,7 @@ $blackPrimary: #171514;
 
 $path: 0% 0, 80% 0, 100% 10%, 100% 100%, 20% 100%, 0 90%;
 ::selection {
-  background: #c09ac5;
+  background: #FFC107;
   color: #ffffff !important;
 }
 body {
@@ -88,7 +88,7 @@ main {
   //   position: absolute;
   //   transform-origin: center;
   //   animation: rotate 2s linear infinite;
-  //   background: linear-gradient(transparent, #c09ac5);
+  //   background: linear-gradient(transparent, #FFC107);
   //   animation: bg-spin 15s linear infinite;
   //   // backdrop-filter: blur(7.5px);
   //   border-radius: 80px;
@@ -110,10 +110,16 @@ main {
     img {
       display: inline-block;
       transform: translatey(110%);
-      width: 125px;
+      width: 200px;
       @media screen and (max-width: 575px) {
         width: 90px;
       }
+    }
+    h2 {
+      font-family: "Druk Cond Trial";
+      font-weight: 500;
+      color: #000;
+      font-size: 50px;
     }
   }
   &__mobileToggle {
@@ -128,7 +134,7 @@ main {
         display: block;
         width: 26px;
         height: 2px;
-        background: #c09ac5;
+        background: #FFC107;
         border-radius: 31px;
         transition: all 0.3s;
         &:not(:last-child) {
@@ -314,7 +320,7 @@ main {
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
-  background: linear-gradient(292.7deg, #c09ac5 14.54%, #c09ac5 84.59%);
+  background: linear-gradient(292.7deg, #FFC107 14.54%, #FFC107 84.59%);
   animation: rotate var(--speed) alternate infinite;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   opacity: 0.5;
@@ -337,7 +343,7 @@ main {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #c09ac5;
+  background: #FFC107;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -420,7 +426,7 @@ main {
       padding-top: 40px;
     }
     @media screen and (max-width: 575px) {
-      padding-top: 120px;
+      padding-top: 170px;
     }
   }
   .container {
@@ -497,6 +503,9 @@ main {
     }
     canvas {
       transform: translateX(-120px);
+    }
+    @media screen and (max-width: 575px) {
+      height: 100px;
     }
   }
   canvas {
@@ -651,7 +660,7 @@ main {
       // position: absolute;
       // transform-origin: center;
       // animation: rotate 2s linear infinite;
-      // background: linear-gradient(transparent, #c09ac5);
+      // background: linear-gradient(transparent, #FFC107);
       // animation: bg-spin 15s linear infinite;
       // // backdrop-filter: blur(7.5px);
       // border-radius: 40px;
@@ -721,7 +730,7 @@ main {
       color: #000;
       font-size: 112px;
       @media screen and (max-width: 575px) {
-        font-size: 62px;
+        font-size: 55px;
       }
     }
     @media screen and (max-width: 1030px) {
@@ -805,7 +814,7 @@ main {
             top: 50%;
             left: 50%;
             border-radius: 50%;
-            background: #c09ac5;
+            background: #FFC107;
             filter: blur(3px);
             transform: translate(-50%, -50%);
             opacity: 0;
@@ -832,6 +841,10 @@ main {
       img {
         transform: translateY(60px);
         opacity: 0;
+        @media screen and (max-width: 1030px) {
+          border-radius: 20px;
+          box-shadow: 0px 12px 20px 0px #0000004f;
+        }
       }
       h4 {
         font-weight: 500;
@@ -914,7 +927,7 @@ main {
             left: -10px;
             top: 50%;
             transform: translateY(-50%);
-            background: #c09ac5;
+            background: #FFC107;
             opacity: 0;
           }
           &.active {
@@ -1146,7 +1159,7 @@ main {
       width: max-content;
       height: max-content;
       left: 50%;
-      top: 50%;
+      top: 55%;
       transform: translate(-50%, 45%) skewY(-15deg);
       z-index: 1;
       color: rgba(129, 129, 129, 1);
@@ -1155,7 +1168,7 @@ main {
     }
     &:hover {
       &::before {
-        transform: translate(-50%, -125%) skew(15deg);
+        transform: translate(-50%, -130%) skew(15deg);
       }
       &::after {
         transform: translate(-50%, -50%) skew(0);
@@ -1171,7 +1184,7 @@ main {
     left: -10px;
     top: 50%;
     transform: translateY(-50%);
-    background: #c09ac5;
+    background: #FFC107;
     opacity: 0;
     transition: all 0.3s;
   }
@@ -1184,7 +1197,7 @@ main {
     left: -10.5px;
     top: 50%;
     transform: translateY(-50%);
-    background: #c09ac5;
+    background: #FFC107;
     filter: blur(3px);
     opacity: 0;
     transition: all 0.3s;
@@ -1232,7 +1245,6 @@ main {
 
 .WorkListImages__ListItem {
   border-radius: 0.4861111111vw;
-  cursor: pointer;
   height: 68vh;
   overflow: hidden;
   position: absolute;
@@ -1327,7 +1339,7 @@ main {
     padding: 100px 0 300px;
   }
   @media screen and (max-width: 575px) {
-    padding: 120px 0 200px;
+    padding: 120px 0;
   }
   &__bg {
     position: absolute;
@@ -1446,7 +1458,7 @@ main {
     //   position: absolute;
     //   transform-origin: center;
     //   animation: rotate 2s linear infinite;
-    //   background: linear-gradient(transparent, #c09ac5);
+    //   background: linear-gradient(transparent, #FFC107);
     //   animation: bg-spin 15s linear infinite;
     //   border-top-right-radius: 160px;
     //   border-bottom-right-radius: 160px;
@@ -1601,7 +1613,7 @@ main {
     width: var(--size);
     height: var(--size);
     filter: blur(calc(var(--size) / 5));
-    background: linear-gradient(292.7deg, #c09ac5 14.54%, #c09ac5 84.59%);
+    background: linear-gradient(292.7deg, #FFC107 14.54%, #FFC107 84.59%);
     animation: rotate var(--speed) alternate infinite;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     opacity: 0.5;
@@ -1825,7 +1837,7 @@ main {
         top: 50%;
         left: 50%;
         border-radius: 50%;
-        background: #c09ac5;
+        background: #FFC107;
         filter: blur(3px);
         transform: translate(-50%, -50%);
         opacity: 0;
@@ -2235,7 +2247,7 @@ main {
           margin-bottom: 20px;
         }
         @media screen and (max-width: 1030px) {
-          font-size: 15px;
+          font-size: 16px;
           line-height: 22px;
           transform: translateY(30%);
           opacity: 0;
@@ -2268,7 +2280,7 @@ main {
   &__top {
     position: relative;
     padding: 350px 0 0;
-    background: #c09ac5;
+    background: #FFC107;
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 80px;
     z-index: 2;
@@ -2288,7 +2300,7 @@ main {
       padding: 100px 0 0;
       border-bottom-left-radius: 30px;
       border-bottom-right-radius: 30px;
-      background: #c09ac5;
+      background: #FFC107;
       margin-bottom: -50px;
     }
   }
@@ -2397,7 +2409,7 @@ main {
       width: calc(100% - 80px);
       @media screen and (max-width: 575px) {
         margin-bottom: -2px;
-        width: calc(100% - 50px);
+        width: 100%;
       }
     }
   }
@@ -2434,7 +2446,7 @@ main {
     width: var(--size);
     height: var(--size);
     filter: blur(calc(var(--size) / 5));
-    background: linear-gradient(292.7deg, #c09ac5 14.54%, #c09ac5 84.59%);
+    background: linear-gradient(292.7deg, #FFC107 14.54%, #FFC107 84.59%);
     animation: rotate var(--speed) alternate infinite;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     opacity: 0.5;
@@ -2840,5 +2852,20 @@ main {
     left: 40%;
     max-width: 280px;
     z-index: 1;
+  }
+}
+
+.SP {
+  display: block;
+}
+.PC {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .SP {
+    display: none;
+  }
+  .PC {
+    display: block;
   }
 }
